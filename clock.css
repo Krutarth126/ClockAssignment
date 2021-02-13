@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: #09015f;
+    font-family: 'Potta One', cursive;
+    text-align: center;
+    color: white;
+}
+#root{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    background-color: #09015f;
+    display: flex;
+    position: relative;
+}
+
+#root p{
+    font-family: cursive;
+    margin-top: 75px;
+    font-size: 70px;
+    text-decoration: underline;
+    color: #a2d0c1;
+    cursor: pointer;
+}
+#Btns{
+    background-color: #09015f;
+    position: fixed;
+    top: 400px;
+}
+#Btn1, #Btn2{
+    background-color: orangered;
+    padding: 10px;
+    margin: 50px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
